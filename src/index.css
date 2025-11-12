@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes pulse-glow {
+    0%,
+    100% {
+        box-shadow: 0 0 15px rgba(20, 184, 166, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(20, 184, 166, 0.5);
+    }
+}
+
+.animate-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #b16cea, #4cd4c7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.gradient-text {
+    @apply bg-gradient-to-r from-teal-400 via-purple-400 to-teal-400 text-transparent bg-clip-text;
+}
