@@ -1,4 +1,5 @@
 # 💻 Personal Portfolio – Neeru Nayak
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 A modern, responsive **personal portfolio website** built with **React**, **Tailwind CSS**, and **Framer Motion** — designed to showcase my projects, skills, and experience as a Frontend Developer.
 
