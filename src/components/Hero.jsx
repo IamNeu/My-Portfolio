@@ -49,32 +49,34 @@ const Hero = () => {
 
       </motion.div>
 
-      {/* Right side - Profile image */}
+     {/* Right side - Profile image */}
 <motion.div
   initial={{ opacity: 0, scale: 0.9 }}
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 1.2 }}
-  className="flex-1 flex justify-center items-center mb-10 md:mb-0"
+  className="flex-1 flex justify-center items-center mb-10 md:mb-0 z-10"
 >
- <div className="flex justify-center items-center">
-  <div className="relative w-[420px] aspect-square rounded-full p-[6px] 
-                  bg-gradient-to-r from-teal-400 via-purple-400 to-teal-400 
-                  shadow-[0_0_30px_8px_rgba(45,212,191,0.35)]
-">
-    <div className="rounded-full overflow-hidden w-full h-full">
-      <img
-        src={profile}
-        alt="Neeru Nayak"
-        className="object-cover w-full h-full rounded-full"
-      />
+  <div className="flex justify-center items-center">
+    <div
+      className="
+        relative 
+        w-56 sm:w-64 md:w-80 lg:w-[420px] 
+        aspect-square 
+        rounded-full p-[6px]
+        bg-gradient-to-r from-teal-400 via-purple-400 to-teal-400
+        shadow-[0_0_30px_8px_rgba(45,212,191,0.35)]
+        max-w-[90%]
+      "
+    >
+      <div className="rounded-full overflow-hidden w-full h-full">
+        <img
+          src={profile}
+          alt="Neeru Nayak"
+          className="object-cover w-full h-full rounded-full"
+        />
+      </div>
     </div>
   </div>
-</div>
-
-
-
-
-
 </motion.div>
 
     </section>
