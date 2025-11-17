@@ -1,16 +1,101 @@
-# React + Vite
+# 💻 Personal Portfolio – Neeru Nayak
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **personal portfolio website** built with **React**, **Tailwind CSS**, and **Framer Motion** — designed to showcase my projects, skills, and experience as a Frontend Developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 **Live Site:** [https://my-portfolio-smoky-rho-63.vercel.app/]
+---
 
-## React Compiler
+## 🧠 About The Project
+This is my personal portfolio built to highlight my frontend skills, projects, and career journey.  
+The design is inspired by modern minimal portfolios with subtle animations and smooth transitions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Key goals:**
+- Present my projects in an engaging and responsive layout  
+- Add personality through soft gradient glows and motion effects  
+- Build everything from scratch using React and Tailwind CSS  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+**Framework:** React.js  
+**Styling:** Tailwind CSS  
+**Animations:** Framer Motion  
+**Icons:** Lucide React  
+**Deployment:** Vercel  
+**Language:** JavaScript (ES6+)
+
+---
+
+## ✨ Features
+- 🎨 Soft gradient glow effects (teal–purple–teal theme)  
+- 💫 Smooth animations with Framer Motion  
+- 📱 Fully responsive on all devices  
+- 🧩 Projects, Testimonials, and Contact sections  
+- 🌐 SEO-friendly structure  
+
+---
+
+## 🧩 Folder Structure
+
+____src
+| |____App.css
+| |____index.css
+| |____components
+| | |____ConnectForm.jsx
+| | |____GlowCard.jsx
+| | |____Testimonials.jsx
+| | |____Footer.jsx
+| | |____About.jsx
+| | |____BackgroundGlow.jsx
+| | |____Navbar.jsx
+| | |____Hero.jsx
+| | |____Projects.jsx
+| | |____Socials.jsx
+| | |____Contact.jsx
+
+
+
+
+---
+
+## 🛠️ Getting Started
+Follow these steps to run locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/IamNeu/My-Portfolio.git
+
+# Move into the folder
+cd My-Portfolio
+
+# Install dependencies
+npm install
+
+# Run the app
+npm start
+
+The app will start at http://localhost:3000
+
+💡 Future Improvements
+🌙 Add dark/light mode toggle
+✍️ Add blog or “journey” section
+
+
+🪪 License
+This project is open source and available under the MIT License
+
+👩‍💻 Author
+Neeru Nayak
+Frontend Developer
+📍 Ernakulam, Kerala, India
+📧 neerusometimes@gmail.com
+💼 LinkedIn
+💻 GitHub
+🌐 Portfolio
+
+---
+
