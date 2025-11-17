@@ -10,7 +10,8 @@ const Hero = () => {
     <section
 
       id="home"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-8 bg-dark text-white relative overflow-hidden">
+className="min-h-screen pt-24 md:pt-0 flex flex-col-reverse md:flex-row items-center justify-center px-8 bg-dark text-white relative overflow-hidden">
+
       {/* Soft glowing gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/10 to-transparent pointer-events-none"></div>
 
