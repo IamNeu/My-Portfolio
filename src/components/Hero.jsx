@@ -30,11 +30,10 @@ className="min-h-screen pt-24 md:pt-0 flex flex-col-reverse md:flex-row items-ce
 </h1>
      
         <h2 className="text-xl sm:text-6xl text-white-400 mb-4">
-          Frontend Developer & React Enthusiast
+          Software engineer 
         </h2>
         <p className="max-w-lg text-gray-400 mb-6 leading-relaxed">
-          I craft responsive, user-focused web experiences using React,
-          Tailwind, and modern UI tools.
+          focused on modern web application development.
         </p>
 
         <motion.a

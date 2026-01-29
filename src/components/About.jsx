@@ -24,10 +24,12 @@ const About = () => {
         transition={{ duration: 1 }}
         className="max-w-2xl text-gray-400 leading-relaxed text-center mb-10"
       >
-        I’m a passionate frontend developer focused on creating responsive and
-        user-friendly web experiences using React, Tailwind CSS, and modern
-        JavaScript. I love building visually engaging interfaces and continuously
-        learning new technologies to bring ideas to life on the web.
+        I am a software engineer with a background in computer science and professional experience in enterprise systems and independent development. 
+        My work focuses on building structured, responsive web applications using React and modern JavaScript, with an emphasis on performance, modular design, 
+        and problem solving.I am particularly interested in the intersection of software engineering and computer science fundamentals, and I continuously 
+        develop projects that strengthen my understanding of algorithms, 
+        system design, and scalable architecture. 
+
       </motion.p>
 
       {/* Resume Button */}
