@@ -24,11 +24,11 @@ const About = () => {
         transition={{ duration: 1 }}
         className="max-w-2xl text-gray-400 leading-relaxed text-center mb-10"
       >
-        I am a software engineer with a background in computer science and professional experience in enterprise systems and independent development. 
-        My work focuses on building structured, responsive web applications using React and modern JavaScript, with an emphasis on performance, modular design, 
-        and problem solving.I am particularly interested in the intersection of software engineering and computer science fundamentals, and I continuously 
-        develop projects that strengthen my understanding of algorithms, 
-        system design, and scalable architecture. 
+       I am a Software Engineer with a strong foundation in computer science and professional experience in both frontend development and enterprise application support.
+       My work focuses on building structured, responsive web applications using React and modern JavaScript, with an emphasis on performance, modular design, and real-world problem solving.
+       Having supported large-scale systems at Infosys, I bring a support-first mindset to development—building interfaces that are reliable, maintainable, and easy to debug.
+       I am particularly interested in the intersection of software engineering and core computer science fundamentals and I continuously develop projects to strengthen my understanding of algorithms, system design and scalable architecture.
+
 
       </motion.p>
 
