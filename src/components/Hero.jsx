@@ -30,11 +30,11 @@ className="min-h-screen pt-24 md:pt-0 flex flex-col-reverse md:flex-row items-ce
 </h1>
      
         <h2 className="text-xl sm:text-6xl text-white-400 mb-4">
-        Frontend Developer & Product Support Engineer
+        Full-Stack Developer & AI Solutions Engineer
+
         </h2>
         <p className="max-w-lg text-gray-400 mb-6 leading-relaxed">
-I build responsive, user-focused web interfaces and solve real-world SaaS product issues using React, JavaScript, and API debugging.
-        </p>
+I build production-grade SaaS products end-to-end — React frontends, Node.js backends, payment integrations and AI-powered workflows. Currently shipping fintech infrastructure in the real world.        </p>
 
         <motion.a
   href="#projects"

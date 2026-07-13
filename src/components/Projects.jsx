@@ -4,29 +4,41 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    title: "PayCollect",
+    desc: "Production fintech SaaS for merchant payment collection. Built end-to-end: Google OAuth signup, Stripe payment links, SMS notifications via AWS SNS, bulk Excel upload, custom email domain, and real-time reconciliation across 4 Stripe flows.",
+    github: "https://github.com/IamNeu/paycollect-mvp",
+    demo: "https://get-pay-collect.com",
+    featured: true,
+    tags: ["React", "Node.js", "MongoDB", "Stripe", "AWS SNS"],
+  },
+  {
+    title: "NodeFlow",
+    desc: "AI-powered visual workflow builder for designing and executing GenAI pipelines. Drag-and-drop node editor with auto-layout via Dagre, FastAPI backend for workflow execution, and support for chaining AI agents and data transforms.",
+    github: "https://github.com/IamNeu",
+    demo: "https://nodeflow-nu.vercel.app/",
+    tags: ["React", "ReactFlow", "Dagre", "FastAPI", "GenAI"],
+},
+  {
     title: "Recipe Finder",
     desc: "A web app to discover recipes by ingredients with dynamic API fetching.",
     github: "https://github.com/IamNeu/RecipeFinderWebApp",
     demo: "https://recipe-f-inder-e2lh.vercel.app/",
-  },
-  {
-    title: "My Portfolio Website",
-    desc: "You’re looking at it right now 👀 — a React-based portfolio featuring animations, custom glow borders, and a clean responsive design.",
-    github: "https://github.com/IamNeu/my-portfolio",
-    demo: "https://vercel.com/neus-projects-4adbba5e",
-    featured: true,
-  },
-  {
-    title: "Calculator",
-    desc: "A simple and responsive calculator built with JavaScript.",
-    github: "https://github.com/IamNeu/Simple-Calculator",
-    demo: "https://simple-calculator-ten-amber.vercel.app/",
+    tags: ["React", "API"],
   },
   {
     title: "Dynamic Quiz App",
-    desc: "An interactive React app that dynamically generates quiz questions.",
+    desc: "An interactive React app that dynamically generates quiz questions with score tracking and timer.",
     github: "https://github.com/IamNeu/Dynamic-Quiz-App",
     demo: "https://dynamic-quiz-app-omega.vercel.app/",
+    tags: ["React", "JavaScript"],
+  },
+  {
+    title: "My Portfolio Website",
+    desc: "You're looking at it right now 👀 — a React-based portfolio featuring animations, custom glow borders, and a clean responsive design.",
+    github: "https://github.com/IamNeu/my-portfolio",
+    demo: "https://my-portfolio-smoky-rho-63.vercel.app/",
+    featured: false,
+    tags: ["React", "Framer Motion", "Tailwind CSS"],
   },
 ];
 
@@ -70,10 +82,23 @@ const Projects = () => {
                 </span>
               )}
             </h3>
-
-            <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-4">
+            <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-3">
               {p.desc}
             </p>
+
+            {/* Tags */}
+            {p.tags && (
+              <div className="flex flex-wrap gap-2 justify-center mb-4">
+                {p.tags.map((tag, t) => (
+                  <span
+                    key={t}
+                    className="text-xs px-2 py-1 rounded-full bg-neutral-800 text-teal-400 border border-teal-900"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
 
             <div className="flex justify-between text-sm sm:text-base">
               <a
@@ -84,7 +109,6 @@ const Projects = () => {
               >
                 <Github size={16} /> GitHub
               </a>
-
               <a
                 href={p.demo}
                 target="_blank"
